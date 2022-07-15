@@ -1,16 +1,21 @@
 package Week7;
 
+import jdk.swing.interop.SwingInterOpUtils;
+
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class PayBillSecond {
+    public static void main(String[] args) {
+        slipStatement();
+    }
     private static Scanner input = new Scanner(System.in);
     private static String customer;
     private static ArrayList<String> itemsPurchased = new ArrayList<>();
     private static ArrayList<Integer> piecesPurchased = new ArrayList<>();
-    private static ArrayList<Integer> pricePerunit = new ArrayList<>();
-    private static double discount;
+    private static ArrayList<Double> pricePerunit = new ArrayList<>();
+    private static double discountGiven;
     private static double amount;
     private static double total;
     private static double finalPrice;
@@ -86,14 +91,37 @@ public class PayBillSecond {
     }
     public static void setDiscountGiven(){
         System.out.println("How much discount will he get?");
-        int discountGiven = input.nextInt();
+        discountGiven = input.nextDouble();
     }
 
     public static double getDiscountGiven(){
-        return discount / 100;
+        return discountGiven / 100;
     }
 
     public static String getCashierName(){
         return cashier;
     }
+    public static void slipStatement(){
+        System.out.println("SEMICOLON STORES");
+        System.out.println("MAIN BRANCH");
+        System.out.println("LOCATION: 312, HERBERT MACAULEY WAY, SABO YABA. LAGOS");
+        System.out.println("TEL: 03293828343");
+        System.out.printf("Date: 20-May-22 5:22:49 pm%nCashier: %s%nCustomer Name: %s%n", getCashierName(), getCustomer());
+        System.out.println("====================================================================");
+        System.out.print("                   ");
+        System.out.printf("%s%10s%10s%15s%n","ITEM","QTY","PRICE","TOTAL(NGN)");
+        System.out.println("--------------------------------------------------------------------");
+    }
+    public static void slipDetails(){
+        slipStatement();
+        double totalPrice = 0;
+        for(int i = 0; i < itemsPurchased.size(); i++){
+            totalPrice = pricePerunit.get(i) * piecesPurchased.get(i);
+            System.out.printf("%22s%11d%11.2f%11.2f%n",itemsPurchased.get(i), piecesPurchased.get(i), pricePerunit.get(i), (totalPrice));
+        }
+        for(int i = 0; i < itemsPurchased.size(); i++){
+
+        }
+    }
+
 }
