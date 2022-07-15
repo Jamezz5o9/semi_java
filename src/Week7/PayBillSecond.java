@@ -150,7 +150,7 @@ public static void outputProcessed(){
         System.out.println("---------------------------------------------------------------------");
 
         for(int i = 0; i < itemsPurchased.size(); i++){
-            total += totalPrice;
+            total +=  pricePerunit.get(i) * piecesPurchased.get(i);
         }
 
             double totalAndDiscount = total * getDiscountGiven();
