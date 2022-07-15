@@ -87,44 +87,5 @@ public class SegmentEight {
             }
         }
     }
-    public static void newSegment2(){
-        Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a digit to display");
-        int new1 = input.nextInt();
-        switch(new1){
-            case 0 :
-                System.out.println("_ \n| |\n|_|");
-                break;
-
-            case 1:
-                System.out.println("|\n|\n");
-                break;
-
-            case 2:
-                System.out.println("_ \n_|\n|_");
-                break;
-            case 3:
-                System.out.println("_ \n_|\n_|");
-                break;
-            case 4:
-                System.out.println("   \n|_|\n  |");
-                break;
-            case 5:
-                System.out.println("_ \n|_\n_|");
-                break;
-            case 6:
-                System.out.println("_ \n|_\n|_|");
-                break;
-            case 7:
-                System.out.println("_ _\n   |\n   |");
-                break;
-            case 8:
-                System.out.println("_ \n|_|\n|_|");
-                break;
-            case 9:
-                System.out.println("_ \n|_|\n_|");
-                break;
-        }
-    }
 
 }
