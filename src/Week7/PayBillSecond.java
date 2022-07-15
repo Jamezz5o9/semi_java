@@ -51,6 +51,11 @@ public class PayBillSecond {
     public static void purchasedUnits(){
         System.out.println("How much per unit");
         int units = input.nextInt();
+        if(units > 0){
+            pricePerunit.add(units);
 
+        } else {
+            System.out.println("Please input a valid units");
+        }
     }
 }

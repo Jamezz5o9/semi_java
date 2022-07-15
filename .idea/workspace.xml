@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week7/PayBillSecond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week7/SegmentEight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/MyerrBriggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/MyerrBriggs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/PayBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/PayBill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/StudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week7/PayBillSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/PayBillSecond.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +28,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="assignment" />
-                    <option name="lastUsedInstant" value="1657723740" />
-                  </RecentBranch>
-                  <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1657723739" />
+                    <option name="lastUsedInstant" value="1657877960" />
                   </RecentBranch>
                 </list>
               </option>
@@ -142,7 +133,7 @@
       <workItem from="1657352739956" duration="649000" />
       <workItem from="1657592423630" duration="73597000" />
       <workItem from="1657798956532" duration="8248000" />
-      <workItem from="1657869821887" duration="5256000" />
+      <workItem from="1657869821887" duration="8580000" />
     </task>
     <servers />
   </component>
