@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Week7/PhoneBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Week7/PayBillSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/PayBillSecond.java" afterDir="false" />
     </list>
@@ -151,7 +152,7 @@
       <workItem from="1657592423630" duration="73597000" />
       <workItem from="1657798956532" duration="8248000" />
       <workItem from="1657869821887" duration="16652000" />
-      <workItem from="1657887907593" duration="4731000" />
+      <workItem from="1657887907593" duration="8721000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657891078304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="another commitfour">
+      <created>1657898432590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657898432590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +200,8 @@
     <MESSAGE value="another commit1" />
     <MESSAGE value="another commit2" />
     <MESSAGE value="another commit3" />
-    <option name="LAST_COMMIT_MESSAGE" value="another commit3" />
+    <MESSAGE value="another commitfour" />
+    <option name="LAST_COMMIT_MESSAGE" value="another commitfour" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,12 +2,14 @@ package Week7;
 
 import jdk.swing.interop.SwingInterOpUtils;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class PayBillSecond {
     private static Scanner input = new Scanner(System.in);
+    private static final SimpleDateFormat simpledateformat = new SimpleDateFormat();
     private static String customer;
     private static ArrayList<String> itemsPurchased = new ArrayList<>();
     private static ArrayList<Integer> piecesPurchased = new ArrayList<>();
@@ -175,7 +177,6 @@ public static void outputProcessed(){
         System.out.println("==========================================================================");
         System.out.printf("%50s: %10.2f%n", "Bill Total", finalAmount);
         System.out.printf("%51s: %9.2f%n", "Amount paid", getPaidAmount());
-
         System.out.printf("%47s: %11.2f%n", "Balance", yourBalance);
         System.out.println("==========================================================================");
         System.out.println("                   THANK YOU FOR YOUR PATRONAGE");
