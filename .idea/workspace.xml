@@ -133,12 +133,24 @@
       <workItem from="1657352739956" duration="649000" />
       <workItem from="1657592423630" duration="73597000" />
       <workItem from="1657798956532" duration="8248000" />
-      <workItem from="1657869821887" duration="8580000" />
+      <workItem from="1657869821887" duration="10386000" />
     </task>
+    <task id="LOCAL-00001" summary="another commit">
+      <created>1657878424567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657878424567</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="another commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="another commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

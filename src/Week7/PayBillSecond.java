@@ -14,6 +14,7 @@ public class PayBillSecond {
     private static double amount;
     private static double total;
     private static double finalPrice;
+    private static String cashier;
 
     public static void setCustomer(){
         System.out.println("What's the customer name");
@@ -53,9 +54,46 @@ public class PayBillSecond {
         int units = input.nextInt();
         if(units > 0){
             pricePerunit.add(units);
-
         } else {
             System.out.println("Please input a valid units");
         }
+    }
+
+    public static void addAnotherItems(){
+        purchasedItems();
+        purchasedPieces();
+        purchasedUnits();
+        input.nextLine();
+        System.out.println("Add new Items");
+        String newInput = input.nextLine();
+        switch(newInput){
+            case "YES", "yes", "Yes" :
+                addAnotherItems();
+            default: cashierName();
+                    setDiscountGiven();
+        }
+
+    }
+    public static void cashierName(){
+        System.out.println("What is your name");
+        String cashierFullName =input.nextLine();
+        if(!Objects.equals(cashierFullName, "")) {
+            cashier = cashierFullName;
+        }else {
+            System.out.println("Please add your name");
+            cashierName();
+        }
+    }
+    public static void setDiscountGiven(){
+        System.out.println("How much discount will he get?");
+        int discountGiven = input.nextInt();
+    }
+
+    public static double getDiscountGiven(){
+        return discount / 100;
+    }
+
+    public static String getCashierName(){
+        return cashier;
     }
 }
