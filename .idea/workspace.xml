@@ -21,6 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -50,14 +51,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -148,7 +150,8 @@
       <workItem from="1657352739956" duration="649000" />
       <workItem from="1657592423630" duration="73597000" />
       <workItem from="1657798956532" duration="8248000" />
-      <workItem from="1657869821887" duration="13568000" />
+      <workItem from="1657869821887" duration="16652000" />
+      <workItem from="1657887907593" duration="2886000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
@@ -164,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657880225171</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="another commit2">
+      <created>1657883561224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657883561224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +183,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="another commit" />
     <MESSAGE value="another commit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="another commit1" />
+    <MESSAGE value="another commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="another commit2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

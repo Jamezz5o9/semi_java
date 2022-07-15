@@ -7,20 +7,30 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class PayBillSecond {
-    public static void main(String[] args) {
-        slipStatement();
-    }
     private static Scanner input = new Scanner(System.in);
     private static String customer;
     private static ArrayList<String> itemsPurchased = new ArrayList<>();
     private static ArrayList<Integer> piecesPurchased = new ArrayList<>();
     private static ArrayList<Double> pricePerunit = new ArrayList<>();
     private static double discountGiven;
+    private static double vat;
     private static double amount;
     private static double total;
-    private static double finalPrice;
+    private static double finalAmount;
     private static String cashier;
 
+    public static void main(String[] args) {
+        outputProcessed();
+    }
+
+public static void outputProcessed(){
+    setCustomer();
+    addAnotherItems();
+    slipStatement();
+    moneyCollectedOnItems();
+    receipt();
+
+}
     public static void setCustomer(){
         System.out.println("What's the customer name");
         String name = input.nextLine();
@@ -56,13 +66,14 @@ public class PayBillSecond {
     }
     public static void purchasedUnits(){
         System.out.println("How much per unit");
-        int units = input.nextInt();
+        double units = input.nextInt();
         if(units > 0){
             pricePerunit.add(units);
         } else {
             System.out.println("Please input a valid units");
         }
     }
+
 
     public static void addAnotherItems(){
         purchasedItems();
@@ -74,6 +85,7 @@ public class PayBillSecond {
         switch(newInput){
             case "YES", "yes", "Yes" :
                 addAnotherItems();
+                break;
             default: cashierName();
                     setDiscountGiven();
         }
@@ -81,17 +93,32 @@ public class PayBillSecond {
     }
     public static void cashierName(){
         System.out.println("What is your name");
-        String cashierFullName =input.nextLine();
+        String cashierFullName = input.nextLine();
         if(!Objects.equals(cashierFullName, "")) {
             cashier = cashierFullName;
         }else {
-            System.out.println("Please add your name");
+            System.out.println("Name can't be left blank");
             cashierName();
         }
     }
     public static void setDiscountGiven(){
         System.out.println("How much discount will he get?");
         discountGiven = input.nextDouble();
+    }
+    public static void moneyCollectedOnItems(){
+        System.out.println("How much did the customer give to you?");
+        double amountPaid = input.nextDouble();
+        if(amountPaid > 0.0){
+            amount = amountPaid;
+        } else{
+            System.out.println("Amount paid can't be negative");
+            moneyCollectedOnItems();
+
+        }
+
+    }
+    public static double getPaidAmount(){
+        return amount;
     }
 
     public static double getDiscountGiven(){
@@ -115,13 +142,44 @@ public class PayBillSecond {
     public static void slipDetails(){
         slipStatement();
         double totalPrice = 0;
+
         for(int i = 0; i < itemsPurchased.size(); i++){
             totalPrice = pricePerunit.get(i) * piecesPurchased.get(i);
             System.out.printf("%22s%11d%11.2f%11.2f%n",itemsPurchased.get(i), piecesPurchased.get(i), pricePerunit.get(i), (totalPrice));
         }
-        for(int i = 0; i < itemsPurchased.size(); i++){
+        System.out.println("---------------------------------------------------------------------");
 
+        for(int i = 0; i < itemsPurchased.size(); i++){
+            total += totalPrice;
         }
+
+            double totalAndDiscount = total * getDiscountGiven();
+            vat = total * 0.175;
+            finalAmount = total - (totalAndDiscount + vat);
+
+        System.out.printf("%50s: %10.2f%n%50s: %10.2f%n%50s: %10.2f%n", "SUB TOTAL", total, "DISCOUNT", totalAndDiscount,
+                "VAT @ TOTAL", vat);
+        System.out.println("==========================================================================");
+        System.out.printf("%50s: %10.2f%n", "Bill Total", finalAmount);
+        System.out.println("==========================================================================");
+        System.out.printf("                 THIS IS NOT A RECEIPT KINDLY PAY %.2f%n", finalAmount);
+        System.out.println("==========================================================================");
+    }
+
+    public static void receipt(){
+        slipDetails();
+        double yourBalance = getPaidAmount() - finalAmount;
+        System.out.println("---------------------------------------------------------------------");
+        System.out.printf("%50s: %10.2f%n%50s: %10.2f%n%50s: %10.2f%n", "SUB TOTAL", total, "DISCOUNT", vat,
+                "VAT @ TOTAL", vat);
+        System.out.println("==========================================================================");
+        System.out.printf("%50s: %10.2f%n", "Bill Total", finalAmount);
+        System.out.printf("%51s: %9.2f%n", "Amount paid", getPaidAmount());
+
+        System.out.printf("%47s: %11.2f%n", "Balance", yourBalance);
+        System.out.println("==========================================================================");
+        System.out.println("                   THANK YOU FOR YOUR PATRONAGE");
+        System.out.println("==========================================================================");
     }
 
 }
