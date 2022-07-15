@@ -1,5 +1,6 @@
 package Week7;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class StudentInfo {
@@ -10,8 +11,9 @@ public class StudentInfo {
        // check();
         //outputChat();
        // lowestGrade();
-        //outputSummary();
-        check();
+        outputSummary();
+      //  check();
+
     }
     private  static Scanner input = new Scanner(System.in);
     private  static String schoolName;
@@ -27,8 +29,8 @@ public class StudentInfo {
         System.out.println("Subject 1");
 
 
-        System.out.printf("The highest scoring student is: student %d scoring %d%n", highestGrade());
-        System.out.printf("The lowest scoring student is: student %d scoring %d%n", lowestGrade());
+        System.out.printf("The highest scoring student is: student scoring %d%n", highestGrade());
+        System.out.printf("The lowest scoring student is: student scoring %d%n", lowestGrade());
 
     }
     public static void getInput(){
@@ -139,14 +141,27 @@ public class StudentInfo {
             double average = average(grades[student]);
             System.out.printf("%9.2f", average);
 
+
             int pos = position(grades[student]);
             System.out.printf("%6d%n", pos);
 
             }
+
         System.out.println("==============================================================");
         System.out.println("==============================================================");
+
+
+       // System.out.printf("Modidyfied[]: %s", Arrays.toString(grades[student]));
 }
 
+public static void checkNew(){
+        getInput();
+    Arrays.sort(grades);
+    for(int[] value : grades) {
+        for(int secondvalue : value)
+            System.out.printf("%d%n", secondvalue);
+    }
+}
 
     public static int checkPosition(int first, int second, int third){
 

@@ -1,5 +1,6 @@
 package Week7;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 public class PayBill {
@@ -7,47 +8,41 @@ public class PayBill {
         getInfo();
     }
     private static String name;
+    private int item;
     private static String buy;
     private static int pieces;
-    private static int unit;
+    private static int calc;
     private static int userPerUnit;
+    private static String addItems;
     private static int discount;
     private static Scanner input = new Scanner(System.in);
 
     public static void getInfo(){
-        System.out.println("what is the customer name?");
-        name = input.next();
+        do{
+            System.out.println("what is the customer name?");
+            name = input.nextLine();
 
-        System.out.println("What did the user buy?");
-        buy = input.next();
+            System.out.println("What did the user buy?");
+            buy = input.nextLine();
 
-        System.out.println("How many pieces");
-        pieces = input.nextInt();
+            System.out.println("How many pieces");
+            pieces = input.nextInt();
 
-        add();
+            System.out.println("How much per unit");
+            userPerUnit = input.nextInt();
 
-        System.out.println("What did the user buy");
-        name = input.next();
+            add();
 
-        System.out.println("How Many pieces");
-        pieces = input.nextInt();
 
-        System.out.println("How much per unit");
-        userPerUnit = input.nextInt();
-
-        add();
-
-        System.out.println("What is your name");
-        name = input.next();
+        }while(Objects.equals(addItems, "No"));
 
         System.out.println("How much discount will he get");
         discount = input.nextInt();
-
     }
 
     public static void add(){
         System.out.println("Add more items");
-        String addItems = input.next();
+        addItems = input.next();
         switch(addItems){
             case "YES":
                getInfo();
@@ -55,8 +50,15 @@ public class PayBill {
 
             case "No":
                 System.out.println("Proceed to the next order");
-                getInfo();
                 break;
         }
+
+    }
+
+    public static void getItem(){
+        calc = userPerUnit * pieces;
     }
 }
+
+
+

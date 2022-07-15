@@ -12,10 +12,21 @@ public class MyerrBriggs {
 
 
         public static void main(String[] args) {
-               pt3();
+              processedOutput();
         }
         public static void processedOutput(){
+                System.out.printf("%n");
+                pt1();
+                System.out.println("=====================================================");
+                pt2();
+                System.out.println("=====================================================");
+                pt3();
+                System.out.println("=====================================================");
+                pt4();
 
+                System.out.println("-----------------------------------------------------------------");
+                System.out.printf("%s%2s%5s%2s%5s%2s%5s%2s%n", "E", "I", "S", "N", "T", "F", "J", "P");
+                System.out.print("--------------------------------------------------------------------");
         }
         public static void checkInput(){
                 correct = new char[5];
@@ -81,7 +92,7 @@ public class MyerrBriggs {
                                 System.out.println("Sensing(S)");
                         }
                         if(bCount > aCount){
-                                System.out.println("Nervous(N)");
+                                System.out.println("Intuitive(N)");
                         }
                 }
 
@@ -129,5 +140,6 @@ public class MyerrBriggs {
         }
 
 }
+
 
 
