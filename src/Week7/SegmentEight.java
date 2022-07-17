@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SegmentEight {
     public static int[][] segment = new int[5][4];
     public static void main(String[] args) throws InterruptedException, IllegalAccessException{
-        newInput("10101111");
+        newInput("11001110");
         newSegment();
     }
 
@@ -62,19 +62,25 @@ public class SegmentEight {
         segment[2][2] = 1;
         segment[2][3] = 1;
     }
-    public static void newInput(String input) throws IllegalAccessException, InterruptedException {
-        if(input.length() > 8){
-            input = input.substring(0, 8);
+    public static void newInput(String newInput) throws IllegalAccessException, InterruptedException {
+        char[] fill  = newInput.toCharArray();
+        if(fill[fill.length - 1] == '0'){
+            System.out.println("");
+            return;
         }
-        char [] fill  = input.toCharArray();
+
+        if(newInput.length() > 8){
+           newInput =  newInput.substring(0, 8);
+        }
+
         for(char i : fill){
             if(!(i == '1' || i == '0')){
                 throw new IllegalAccessException("Only 1's and 0's are accepted");
             }
         }
 
-        for(int i = 0; i < input.length(); i++){
-            if(input.charAt(i) == '1'){
+        for(int i = 0; i < newInput.length(); i++){
+            if(newInput.charAt(i) == '1'){
                 switch(i){
                     case 0 -> fill();
                     case 1 -> fillB();
