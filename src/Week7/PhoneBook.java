@@ -1,6 +1,7 @@
 package Week7;
 
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class PhoneBook {
@@ -17,7 +18,7 @@ public class PhoneBook {
         String newName = "";
         System.out.println("Please enter your name");
         newName = input.nextLine();
-        if (newName != "") {
+        if (!Objects.equals(newName, "")) {
             names.add(newName);
         } else{
             System.out.println("field can't be left blank");

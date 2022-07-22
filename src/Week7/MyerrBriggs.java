@@ -51,9 +51,7 @@ public class MyerrBriggs {
                 }
         }
         public static void pt1(){
-
                 extrovertIntrovert = new String[5][2];
-
                 extrovertIntrovert[0][0] = "A. Expend energy, enjoy groups";
                 extrovertIntrovert[0][1] = "B.  Conserve energy, enjoy one on one";
                 extrovertIntrovert[1][0] = "A. More outgoing, think out loud";
@@ -75,7 +73,6 @@ public class MyerrBriggs {
 
                 public static void pt2(){
                         extrovertIntrovert = new String[5][2];
-
                         extrovertIntrovert[0][0]  = "A. Interpret literally";
                         extrovertIntrovert[0][1] = "B. look for meaning and possibilities";
                         extrovertIntrovert[1][0] = "A. Practical, realistic, experiential";
@@ -86,7 +83,6 @@ public class MyerrBriggs {
                         extrovertIntrovert[3][1] = "B. look to the future, global perspective, 'big picture' ";
                         extrovertIntrovert[4][0] = "A. facts, things, 'what is' ";
                         extrovertIntrovert[4][1] = "B. ideas, dreams, 'what could be,' philosophical";
-
                         checkInput();
                         if(aCount > bCount){
                                 System.out.println("Sensing(S)");
@@ -108,7 +104,6 @@ public class MyerrBriggs {
                         extrovertIntrovert[3][1] = "B. tender-hearted, merciful";
                         extrovertIntrovert[4][0] = "A. matter of fact, issue-oriented ";
                         extrovertIntrovert[4][1] = "B. sensitive, people-oriented, compassionate";
-
                         checkInput();
                         if(aCount > bCount){
                                 System.out.println("Thinking(T)");
@@ -129,7 +124,6 @@ public class MyerrBriggs {
                 extrovertIntrovert[3][1] = "B. go with the flow, adapt as you go";
                 extrovertIntrovert[4][0] = "A. control, govern";
                 extrovertIntrovert[4][1] = "B. latitude, freedom";
-
                 checkInput();
                 if(aCount > bCount){
                         System.out.println("Judgement(J)");

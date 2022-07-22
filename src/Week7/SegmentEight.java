@@ -3,12 +3,11 @@ package Week7;
 import java.util.Scanner;
 
 public class SegmentEight {
-    public static int[][] segment = new int[5][4];
+    private static int[][] segment = new int[5][4];
     public static void main(String[] args) throws InterruptedException, IllegalAccessException{
-        newInput("11001110");
+        newInput("11001011");
         newSegment();
     }
-
     public static void newSegment() throws InterruptedException{
         System.out.printf("%n");
 
@@ -54,13 +53,20 @@ public class SegmentEight {
     public static void fillF(){
         segment[0][0] = 1;
         segment[1][0] = 1;
-        segment[4][0] = 1;
+        segment[2][0] = 1;
     }
     public static void fillG() throws InterruptedException{
-        segment[2][0] = 1;
-        segment[2][1] = 1;
-        segment[2][2] = 1;
-        segment[2][3] = 1;
+//        segment[2][0] = 1;
+//        segment[2][1] = 1;
+//        segment[2][2] = 1;
+//        segment[2][3] = 1;
+
+        for(int row = 0; row < 5; row++){
+            for (int col = 0; col < 4; col++){
+                segment[2][col] = 1;
+            }
+
+        }
     }
     public static void newInput(String newInput) throws IllegalAccessException, InterruptedException {
         char[] fill  = newInput.toCharArray();
