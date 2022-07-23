@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/MyerrBriggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/MyerrBriggs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/SegmentEight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/SegmentEight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/studentGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/studentGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week7/PayBillSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/PayBillSecond.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.Week7.SegmentEight">
+  <component name="RunManager" selected="Application.Week7.PayBillSecond">
     <configuration name="Week7.MyerrBriggs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week7.MyerrBriggs" />
       <module name="javaAssignment" />
@@ -136,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Week7.PayBillSecond" />
         <item itemvalue="Application.Week7.SegmentEight" />
         <item itemvalue="Application.Week7.MyerrBriggs" />
         <item itemvalue="Application.Week7.PhoneBook" />
         <item itemvalue="Application.Week7.StudentInfo" />
-        <item itemvalue="Application.Week7.PayBillSecond" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +157,8 @@
       <workItem from="1658098838436" duration="11381000" />
       <workItem from="1658180813790" duration="3828000" />
       <workItem from="1658469282724" duration="2481000" />
+      <workItem from="1658526782753" duration="311000" />
+      <workItem from="1658552820436" duration="3767000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>

@@ -4,16 +4,18 @@ import jdk.swing.interop.SwingInterOpUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class PayBillSecond {
+    private static final SimpleDateFormat simpledateformat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+    private static final Date date = new Date();
     private static Scanner input = new Scanner(System.in);
-    private static final SimpleDateFormat simpledateformat = new SimpleDateFormat();
-    private static String customer;
     private static ArrayList<String> itemsPurchased = new ArrayList<>();
     private static ArrayList<Integer> piecesPurchased = new ArrayList<>();
     private static ArrayList<Double> pricePerunit = new ArrayList<>();
+    private static String customer;
     private static double discountGiven;
     private static double vat;
     private static double amount;
@@ -169,6 +171,8 @@ public static void outputProcessed(){
     }
 
     public static void receipt(){
+        System.out.println("");
+        System.out.printf("Purchased Date is %s", simpledateformat.format(date));
         slipDetails();
         double yourBalance = getPaidAmount() - finalAmount;
         System.out.println("---------------------------------------------------------------------");
