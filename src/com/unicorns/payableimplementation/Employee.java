@@ -32,13 +32,14 @@ public class Employee implements Payable{
         return compensationModel.earnings();
     }
 
-    @Override
-    public String toString(){
-        return String.format("%s %s%n%s: %s", getFirstName(), getLastName(), "Social security number", getSocialSecurityNumber());
-    }
 
     @Override
     public double getPaymentAmount() {
         return earnings();
+    }
+
+    @Override
+    public String toString(){
+        return String.format("%s %s%n%s: %s", getFirstName(), getLastName(), "Social security number", getSocialSecurityNumber());
     }
 }

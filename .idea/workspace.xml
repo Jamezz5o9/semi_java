@@ -2,35 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CombinationProject/BasePlusCommissionCompensationMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinationProject/CommissionCompensationModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinationProject/CompensationModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinationProject/CompensationModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinationProject/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinationProject/HourlyCompensationModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CombinationProject/SalariedCompensationModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayableModification/BasePlusCommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayableModification/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayableModification/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayableModification/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayableModification/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayableModification/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayableModification/PayrollTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayableModification/SalariedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayrollModification/BasePlusCommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayrollModification/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayrollModification/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayrollModification/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayrollModification/PayrollTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayrollModification/PieceWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PayrollModification/SalariedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/CompensationModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/PayableInterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/SalariedCompensationModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/PayableInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/PayableInterfaceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +76,20 @@
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PayableInterfaceTest">
+  <component name="RunManager" selected="Application.CompensationModelTest">
+    <configuration name="CompensationModelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CombinationProject.CompensationModelTest" />
+      <module name="javaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CombinationProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Diary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week8.Diary" />
       <module name="javaAssignment" />
@@ -154,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Week7.SegmentEight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week7.SegmentEight" />
-      <module name="javaAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompensationModelTest" />
         <item itemvalue="Application.PayableInterfaceTest" />
         <item itemvalue="Application.PayableModification.PayrollTest" />
         <item itemvalue="Application.Week7.PayBillSecond" />
         <item itemvalue="Application.Diary" />
-        <item itemvalue="Application.Week7.SegmentEight" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +187,10 @@
       <workItem from="1659977943281" duration="1245000" />
       <workItem from="1660064773503" duration="8476000" />
       <workItem from="1660088552073" duration="15516000" />
-      <workItem from="1660118381788" duration="3221000" />
+      <workItem from="1660118381788" duration="4046000" />
+      <workItem from="1660160672993" duration="1208000" />
+      <workItem from="1660179165903" duration="5404000" />
+      <workItem from="1660234893872" duration="8130000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
