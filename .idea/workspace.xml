@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/PayableInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/PayableInterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week12/StackExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week12/StackExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,26 +74,13 @@
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompensationModelTest">
+  <component name="RunManager" selected="Application.StackExample">
     <configuration name="CompensationModelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CombinationProject.CompensationModelTest" />
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CombinationProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Diary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week8.Diary" />
-      <module name="javaAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +114,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week12.StackExample" />
+      <module name="javaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Week7.PayBillSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Week7.PayBillSecond" />
       <module name="javaAssignment" />
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackExample" />
         <item itemvalue="Application.CompensationModelTest" />
         <item itemvalue="Application.PayableInterfaceTest" />
         <item itemvalue="Application.PayableModification.PayrollTest" />
         <item itemvalue="Application.Week7.PayBillSecond" />
-        <item itemvalue="Application.Diary" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +189,7 @@
       <workItem from="1660160672993" duration="1208000" />
       <workItem from="1660179165903" duration="5404000" />
       <workItem from="1660234893872" duration="8130000" />
+      <workItem from="1660425103877" duration="1564000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
@@ -240,6 +239,21 @@
     <MESSAGE value="another commit3" />
     <MESSAGE value="another commitfour" />
     <option name="LAST_COMMIT_MESSAGE" value="another commitfour" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Week12/StackExample.java</url>
+          <line>5</line>
+          <properties class="Week12.StackExample" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
