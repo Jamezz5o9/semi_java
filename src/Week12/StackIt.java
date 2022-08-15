@@ -28,9 +28,10 @@ public class StackIt implements Stack{
     }
 
     @Override
-    public int peek() {
+    public int peek(){
         int data;
-        data = stack[count - 1];
+        count--;
+        data = stack[count];
         return data;
     }
 

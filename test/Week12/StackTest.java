@@ -60,6 +60,20 @@ public class StackTest {
         assertEquals(0, stack.search(1));
     }
 
+    @Test
+    public void checkTheIndexOfLastElementInArray(){
+        stack.push(64);
+        stack.push(6);
+        stack.push(34);
+        assertEquals(34, stack.peek());
+        assertEquals(6, stack.peek());
+    }
 
-
+    @Test
+    public void addElementAtAparticularIndexAndAlsoRemoveThatElement(){
+        stack.push(65);
+        stack.push(98);
+        stack.remove(1);
+        assertEquals(1, stack.size());
+    }
 }
