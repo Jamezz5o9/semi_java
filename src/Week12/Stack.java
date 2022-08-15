@@ -1,9 +1,7 @@
 package Week12;
 
-import java.util.Vector;
-
 public interface Stack{
-    int push(int data);
+   void push(int data);
    boolean empty();
    int pop();
    int peek();

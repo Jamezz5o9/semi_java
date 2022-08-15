@@ -1,17 +1,15 @@
 package Week12;
 
 public class StackIt implements Stack{
-    private int[] stack = new int[5];
+    private int[] stack = new int[10];
     private int count;
     private boolean empty = true;
 
     @Override
-    public int push(int data){
+    public void push(int data){
         empty = false;
-        data = stack[count];
+        stack[count] = data;
         count++;
-
-        return data;
     }
 
     @Override
@@ -24,8 +22,8 @@ public class StackIt implements Stack{
         int data;
         count--;
         data = stack[count];
-        stack[count] = 0;        
-        
+        stack[count] = 0;
+
         return data;
     }
 
@@ -38,15 +36,16 @@ public class StackIt implements Stack{
 
     @Override
     public int size(){
-       return count;
+        return count;
     }
-    
+
     @Override
     public int search(int id){
+
         int result = 0;
-        for(int searchArr: stack){
-            if(id == stack[searchArr]){
-                result = stack[searchArr];
+        for(int i = 0; i < stack.length; i++){
+            if(id == stack[i]){
+                result = i;
             }
         }
         return result;

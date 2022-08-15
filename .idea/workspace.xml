@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Week12/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Week12/StackIt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Week12/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaAssignment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week12/StackExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week12/StackExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Week12/StackExampleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/week8/DiaryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week12/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week12/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week12/StackIt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week12/StackIt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Week12/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Week12/StackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,21 +80,8 @@
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest.pushToStackAndGetbyIndex">
-    <configuration name="Week12.StackExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week12.StackExample" />
-      <module name="javaAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Week12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.checkThatStackHasElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StackTest.returnIndexOfSearchedStackElement">
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +91,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="Week12" />
       <option name="MAIN_CLASS_NAME" value="Week12.StackTest" />
-      <option name="METHOD_NAME" value="checkThatStackHasElement" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.popThelastElementbyIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Week12" />
+      <option name="MAIN_CLASS_NAME" value="Week12.StackTest" />
+      <option name="METHOD_NAME" value="popThelastElementbyIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.stackIsNotEmpty_OneItemHasBeenAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.returnIndexOfSearchedStackElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
@@ -140,13 +138,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Week12" />
       <option name="MAIN_CLASS_NAME" value="Week12.StackTest" />
-      <option name="METHOD_NAME" value="stackIsNotEmpty_OneItemHasBeenAdded" />
+      <option name="METHOD_NAME" value="returnIndexOfSearchedStackElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.testThatStackIsEmpy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.returnIndexOfStackElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
@@ -156,7 +154,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Week12" />
       <option name="MAIN_CLASS_NAME" value="Week12.StackTest" />
-      <option name="METHOD_NAME" value="testThatStackIsEmpy" />
+      <option name="METHOD_NAME" value="returnIndexOfStackElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackTest.returnIndexOfSearchedStackElement" />
+        <item itemvalue="JUnit.StackTest.returnIndexOfStackElement" />
+        <item itemvalue="JUnit.StackTest.popThelastElementbyIndex" />
         <item itemvalue="JUnit.StackTest.pushToStackAndGetbyIndex" />
-        <item itemvalue="Application.Week12.StackExample" />
-        <item itemvalue="JUnit.StackTest.stackIsNotEmpty_OneItemHasBeenAdded" />
-        <item itemvalue="JUnit.StackTest.checkThatStackHasElement" />
-        <item itemvalue="JUnit.StackTest.testThatStackIsEmpy" />
+        <item itemvalue="JUnit.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +210,7 @@
       <workItem from="1660179165903" duration="5404000" />
       <workItem from="1660234893872" duration="8130000" />
       <workItem from="1660425103877" duration="4079000" />
-      <workItem from="1660483372821" duration="7378000" />
+      <workItem from="1660483372821" duration="12901000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
