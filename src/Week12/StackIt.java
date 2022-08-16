@@ -1,5 +1,7 @@
 package Week12;
 
+import java.util.Arrays;
+
 public class StackIt implements Stack{
     private int[] stack = new int[10];
     private int count;
@@ -23,6 +25,7 @@ public class StackIt implements Stack{
         count--;
         data = stack[count];
         stack[count] = 0;
+        System.out.println(Arrays.toString(stack));
 
         return data;
     }
