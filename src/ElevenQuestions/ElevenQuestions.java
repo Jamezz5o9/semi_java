@@ -106,4 +106,62 @@ public class ElevenQuestions {
         }while (count < 5);
         return sum;
     }
+
+    public String concatenateArray(int[] array1, int[] array2, String[] array3) {
+
+        String[] concat = new String[array1.length + array2.length + array3.length];
+        int pos = 0;
+        for (int k : array1) {
+            concat[pos] = String.valueOf(k);
+            pos++;
+        }
+        for(int i = 0; i < array2.length; i++){
+            concat[pos] = String.valueOf(array2[i]);
+            pos++;
+        }
+        for(String element: array3){
+            concat[pos] = element;
+            pos++;
+        }
+        return Arrays.toString(concat);
+    }
+
+    public String concatenateArray2(int[] array1, int[] array2) {
+
+        int[] concat = new int[array1.length + array2.length];
+        int pos = 0;
+        for (int k : array1) {
+            concat[pos] = k;
+            pos++;
+        }
+        for(int i = 0; i < array2.length; i++){
+            concat[pos] = array2[i];
+            pos++;
+        }
+
+        return Arrays.toString(concat);
+    }
+
+    public String alternateArray(int[] array1, int[] array2){
+        int[] concat = new int[array1.length + array2.length];
+        int pos = 0;
+       for(int i = 0;  i < array1.length; i++){
+           concat[pos] = array1[i];
+           pos++;
+           concat[pos] = array2[i];
+           pos++;
+       }
+       return Arrays.toString(concat);
+    }
+    public String alternateArray2(String[] array2, int[] array1){
+        String[] concat = new String[array1.length + array2.length];
+        int pos = 0;
+        for(int i = 0;  i < array1.length; i++){
+            concat[pos] = String.valueOf(array1[i]);
+            pos++;
+            concat[pos] = array2[i];
+            pos++;
+        }
+        return Arrays.toString(concat);
+    }
 }

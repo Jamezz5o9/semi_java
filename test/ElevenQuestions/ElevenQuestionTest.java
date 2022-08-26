@@ -3,6 +3,8 @@ package ElevenQuestions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ElevenQuestionTest {
@@ -84,5 +86,42 @@ public class ElevenQuestionTest {
     public void testDoWhileLoopToComputeValue(){
         int result = 10;
         assertEquals(result, eleven.computeValueUsingDoWhileLoop());
+    }
+
+    @Test
+    public void concatenateTwoArrayTest(){
+        int[] arr1 = {1, 4, 5};
+        int[] arr2 = {3, 6, 7};
+        String[] arr3 = {"she", "is", "fine"};
+        String[] result = {String.valueOf(1), String.valueOf(4), String.valueOf(5), String.valueOf(3), String.valueOf(6), String.valueOf(7), "she", "is", "fine"};
+
+        assertEquals(Arrays.toString(result), eleven.concatenateArray(arr1, arr2, arr3));
+
+
+    }
+    @Test
+    public void concatenateTwoArrayTestTwo() {
+        int[] arr1 = {1, 4, 5};
+        int[] arr2 = {3, 6, 7};
+        int[] result = {1, 4, 5, 3, 6, 7};
+
+        assertEquals(Arrays.toString(result), eleven.concatenateArray2(arr1, arr2));
+
+    }
+
+    @Test
+    public void arrayValueCanBeAddedAlternatively(){
+        int[] arr1 = {1, 0, 9};
+        int[] arr2 = {4,5, 6};
+        int[] result = {1, 4, 0, 5, 9, 6};
+        assertEquals(Arrays.toString(result), eleven.alternateArray(arr1, arr2));
+    }
+
+    @Test
+    public void arrayValueCanBeAlternatedWithStrings(){
+        int[] arr1 = {1, 4, 5};
+        String[] arr2 = {"she", "is", "fine"};
+        String[] result = {String.valueOf(1), "she", String.valueOf(4), "is", String.valueOf(5), "fine"};
+        assertEquals(Arrays.toString(result), eleven.alternateArray2(arr2, arr1));
     }
 }

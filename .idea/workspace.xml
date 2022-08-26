@@ -4,7 +4,6 @@
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ElevenQuestions/ElevenQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElevenQuestions/ElevenQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week7/MyerrBriggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week7/MyerrBriggs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ElevenQuestions/ElevenQuestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ElevenQuestions/ElevenQuestionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,8 +79,8 @@
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElevenQuestionTest.testDoWhileLoopToComputeValue">
-    <configuration name="ElevenQuestionTest.palindromeTestForRealPalindromeString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ElevenQuestionTest.arrayValueCanBeAlternatedWithStrings">
+    <configuration name="ElevenQuestionTest.arrayValueCanBeAddedAlternatively" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +90,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ElevenQuestions" />
       <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
-      <option name="METHOD_NAME" value="palindromeTestForRealPalindromeString" />
+      <option name="METHOD_NAME" value="arrayValueCanBeAddedAlternatively" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElevenQuestionTest.palindromeTestForUnRealPalindromeString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElevenQuestionTest.arrayValueCanBeAlternatedWithStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +106,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="ElevenQuestions" />
       <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
-      <option name="METHOD_NAME" value="palindromeTestForUnRealPalindromeString" />
+      <option name="METHOD_NAME" value="arrayValueCanBeAlternatedWithStrings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElevenQuestionTest.concatenateTwoArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ElevenQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ElevenQuestions" />
+      <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
+      <option name="METHOD_NAME" value="concatenateTwoArrayTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElevenQuestionTest.concatenateTwoArrayTestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ElevenQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ElevenQuestions" />
+      <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
+      <option name="METHOD_NAME" value="concatenateTwoArrayTestTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,45 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElevenQuestionTest.testForLoopToComputeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ElevenQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ElevenQuestions" />
-      <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
-      <option name="METHOD_NAME" value="testForLoopToComputeValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElevenQuestionTest.testWhileLoopToComputeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ElevenQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ElevenQuestions" />
-      <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
-      <option name="METHOD_NAME" value="testWhileLoopToComputeValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ElevenQuestionTest.arrayValueCanBeAlternatedWithStrings" />
+        <item itemvalue="JUnit.ElevenQuestionTest.arrayValueCanBeAddedAlternatively" />
+        <item itemvalue="JUnit.ElevenQuestionTest.concatenateTwoArrayTestTwo" />
+        <item itemvalue="JUnit.ElevenQuestionTest.concatenateTwoArrayTest" />
         <item itemvalue="JUnit.ElevenQuestionTest.testDoWhileLoopToComputeValue" />
-        <item itemvalue="JUnit.ElevenQuestionTest.testWhileLoopToComputeValue" />
-        <item itemvalue="JUnit.ElevenQuestionTest.testForLoopToComputeValue" />
-        <item itemvalue="JUnit.ElevenQuestionTest.palindromeTestForRealPalindromeString" />
-        <item itemvalue="JUnit.ElevenQuestionTest.palindromeTestForUnRealPalindromeString" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +218,9 @@
       <workItem from="1661215713294" duration="9164000" />
       <workItem from="1661255426505" duration="581000" />
       <workItem from="1661306660480" duration="2629000" />
-      <workItem from="1661415927973" duration="16083000" />
+      <workItem from="1661415927973" duration="19028000" />
+      <workItem from="1661483078909" duration="2299000" />
+      <workItem from="1661485986517" duration="6331000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
