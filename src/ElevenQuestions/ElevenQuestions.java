@@ -55,4 +55,55 @@ public class ElevenQuestions {
         }
         return element;
     }
+
+    public int totalAmount(int[] array){
+        int total = 0;
+        for(int i = 0; i < array.length; i++){
+            total += array[i];
+        }
+        return total;
+    }
+
+    public boolean palindromeCheck(String name){
+        String reverse = "";
+        String newReverse = reverse.replaceAll("[^A-Za-z]+", "").toLowerCase();
+        int new_length = name.length();
+        for(int i = new_length - 1; i >= 0; i--){
+            char newValue = name.charAt(i);
+            newReverse += newValue;
+
+            if(name.equals(newReverse)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int computeValueForLoop(){
+        int sum = 0;
+        for(int i = 0; i < 5; i++){
+            sum += i;
+        }
+        return sum;
+    }
+
+    public int computeValueWhileLoop() {
+        int count = 0;
+        int sum = 0;
+        while(count < 5){
+            sum += count;
+            count++;
+        }
+    return sum;
+    }
+
+    public int computeValueUsingDoWhileLoop(){
+        int count = 0;
+        int sum = 0;
+        do{
+            sum += count;
+            count++;
+        }while (count < 5);
+        return sum;
+    }
 }

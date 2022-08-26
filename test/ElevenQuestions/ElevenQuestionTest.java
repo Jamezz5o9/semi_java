@@ -48,4 +48,41 @@ public class ElevenQuestionTest {
 
         assertEquals("6115", eleven.evenPosition(array));
     }
+
+    @Test
+    public void computeTotalOfAListTest(){
+        int[] arr = {9, 1, 10, 11, 8, 1, 3, 7};
+
+        assertEquals(50, eleven.totalAmount(arr));
+
+    }
+
+    @Test
+    public void palindromeTestForRealPalindromeString(){
+        String check = "mom";
+        assertTrue(eleven.palindromeCheck(check));
+    }
+
+    @Test
+    public void palindromeTestForUnRealPalindromeString(){
+        String check = "james";
+        assertFalse(eleven.palindromeCheck(check));
+    }
+
+    @Test
+    public void testForLoopToComputeValue(){
+        int result = 10;
+        assertEquals(result, eleven.computeValueForLoop());
+    }
+    @Test
+    public void testWhileLoopToComputeValue(){
+        int result = 10;
+        assertEquals(result, eleven.computeValueWhileLoop());
+    }
+
+    @Test
+    public void testDoWhileLoopToComputeValue(){
+        int result = 10;
+        assertEquals(result, eleven.computeValueUsingDoWhileLoop());
+    }
 }
