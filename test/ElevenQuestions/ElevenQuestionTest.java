@@ -69,6 +69,8 @@ public class ElevenQuestionTest {
     public void palindromeTestForUnRealPalindromeString(){
         String check = "james";
         assertFalse(eleven.palindromeCheck(check));
+        String fresh= "madam";
+        assertTrue(eleven.palindromeCheck(fresh));
     }
 
     @Test

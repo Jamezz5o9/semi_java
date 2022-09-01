@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aircondition/Aircondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Television/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turtle/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/turtle/Turtle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Aircondition/AirconditionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Television/TelevisionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/turtle/TurtleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ElevenQuestions/ElevenQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElevenQuestions/ElevenQuestions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ElevenQuestions/ElevenQuestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ElevenQuestions/ElevenQuestionTest.java" afterDir="false" />
@@ -15,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -73,88 +82,90 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="turtle" />
+      <recent name="Television" />
+      <recent name="Aircondition" />
       <recent name="week8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElevenQuestionTest.arrayValueCanBeAlternatedWithStrings">
-    <configuration name="ElevenQuestionTest.arrayValueCanBeAddedAlternatively" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TurtleTest">
+    <configuration name="TurtleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ElevenQuestions.*" />
+          <option name="PATTERN" value="turtle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ElevenQuestions" />
-      <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
-      <option name="METHOD_NAME" value="arrayValueCanBeAddedAlternatively" />
+      <option name="PACKAGE_NAME" value="turtle" />
+      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurtleTest.turtleCanTurnLeft_whileFacingEastTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="turtle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="turtle" />
+      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
+      <option name="METHOD_NAME" value="turtleCanTurnLeft_whileFacingEastTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElevenQuestionTest.arrayValueCanBeAlternatedWithStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TurtleTest.turtleCanTurnLeft_whileFacingSouth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ElevenQuestions.*" />
+          <option name="PATTERN" value="turtle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ElevenQuestions" />
-      <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
-      <option name="METHOD_NAME" value="arrayValueCanBeAlternatedWithStrings" />
+      <option name="PACKAGE_NAME" value="turtle" />
+      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
+      <option name="METHOD_NAME" value="turtleCanTurnLeft_whileFacingSouth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElevenQuestionTest.concatenateTwoArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TurtleTest.turtleCanTurnRight_whileFacingEast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ElevenQuestions.*" />
+          <option name="PATTERN" value="turtle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ElevenQuestions" />
-      <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
-      <option name="METHOD_NAME" value="concatenateTwoArrayTest" />
+      <option name="PACKAGE_NAME" value="turtle" />
+      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
+      <option name="METHOD_NAME" value="turtleCanTurnRight_whileFacingEast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElevenQuestionTest.concatenateTwoArrayTestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TurtleTest.turtleCanTurnRight_whileFacingSouth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ElevenQuestions.*" />
+          <option name="PATTERN" value="turtle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ElevenQuestions" />
-      <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
-      <option name="METHOD_NAME" value="concatenateTwoArrayTestTwo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElevenQuestionTest.testDoWhileLoopToComputeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ElevenQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ElevenQuestions" />
-      <option name="MAIN_CLASS_NAME" value="ElevenQuestions.ElevenQuestionTest" />
-      <option name="METHOD_NAME" value="testDoWhileLoopToComputeValue" />
+      <option name="PACKAGE_NAME" value="turtle" />
+      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
+      <option name="METHOD_NAME" value="turtleCanTurnRight_whileFacingSouth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ElevenQuestionTest.arrayValueCanBeAlternatedWithStrings" />
-        <item itemvalue="JUnit.ElevenQuestionTest.arrayValueCanBeAddedAlternatively" />
-        <item itemvalue="JUnit.ElevenQuestionTest.concatenateTwoArrayTestTwo" />
-        <item itemvalue="JUnit.ElevenQuestionTest.concatenateTwoArrayTest" />
-        <item itemvalue="JUnit.ElevenQuestionTest.testDoWhileLoopToComputeValue" />
+        <item itemvalue="JUnit.TurtleTest" />
+        <item itemvalue="JUnit.TurtleTest.turtleCanTurnLeft_whileFacingEastTest" />
+        <item itemvalue="JUnit.TurtleTest.turtleCanTurnRight_whileFacingSouth" />
+        <item itemvalue="JUnit.TurtleTest.turtleCanTurnLeft_whileFacingSouth" />
+        <item itemvalue="JUnit.TurtleTest.turtleCanTurnRight_whileFacingEast" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +231,10 @@
       <workItem from="1661306660480" duration="2629000" />
       <workItem from="1661415927973" duration="19028000" />
       <workItem from="1661483078909" duration="2299000" />
-      <workItem from="1661485986517" duration="6331000" />
+      <workItem from="1661485986517" duration="7933000" />
+      <workItem from="1661621125224" duration="14674000" />
+      <workItem from="1661782525447" duration="1185000" />
+      <workItem from="1662024371869" duration="13813000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
@@ -270,6 +284,21 @@
     <MESSAGE value="another commit3" />
     <MESSAGE value="another commitfour" />
     <option name="LAST_COMMIT_MESSAGE" value="another commitfour" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DisplayTicTac/TicTacToe.java</url>
+          <line>86</line>
+          <properties class="DisplayTicTac.TicTacToe" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
