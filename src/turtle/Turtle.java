@@ -3,18 +3,19 @@ package turtle;
 import static turtle.Direction.*;
 
 public class Turtle {
+    private Position currentPosition = new Position(0, 0);
 
     private Direction currentDirection = EAST;
-    private boolean isPenUp;
+    private boolean penIsUp;
     public void penUp() {
-        isPenUp = true;
+        penIsUp = true;
     }
     public boolean isPenUp() {
-        return isPenUp;
+        return penIsUp;
 
     }
     public void penDown() {
-        isPenUp = false;
+        penIsUp = false;
     }
 
     public Direction getCurrentDirection(){
@@ -40,4 +41,27 @@ public class Turtle {
     public void face(Direction newDirection){
         currentDirection = newDirection;
     }
+    public Position getCurrentPosition(){
+        return currentPosition;
+    }
+
+    private void move(int noOfSteps) {
+        noOfSteps = noOfSteps - 1;
+        int newColumn = currentPosition.getColumn() + noOfSteps;
+        int newRow = currentPosition.getRow() + noOfSteps;
+        if(currentDirection == EAST) currentPosition.setColumn(newColumn);
+        if(currentDirection == WEST) currentPosition.setColumn(newColumn);
+        if (currentDirection == SOUTH) currentPosition.setRow(newRow);
+        if(currentDirection == NORTH) currentPosition.setRow(newRow);
+    }
+
+    public  void move(int noOfSteps, Sketchpad sketchpad){
+        if(!penIsUp) writeOn(sketchpad, noOfSteps);
+
+        move(noOfSteps);
+    }
+
+    private void writeOn(Sketchpad sketchpad, int noOfSteps) {
+    }
+
 }
