@@ -46,22 +46,62 @@ public class Turtle {
     }
 
     private void move(int noOfSteps) {
-        noOfSteps = noOfSteps - 1;
+        if(currentDirection == EAST) eastMovement(noOfSteps);
+        if(currentDirection == WEST) westMovement(noOfSteps);
+        if(currentDirection == SOUTH) southMovement(noOfSteps);
+        if(currentDirection == NORTH) northMovement(noOfSteps);
+    }
+
+    private void westMovement(int noOfSteps){
+        int newColumn = currentPosition.getColumn() - noOfSteps;
+        currentPosition.setColumn(newColumn);
+    }
+    private void northMovement(int noOfSteps){
+        int newRow = currentPosition.getRow() - noOfSteps;
+        currentPosition.setRow(newRow);
+    }
+    private void eastMovement(int noOfSteps){
         int newColumn = currentPosition.getColumn() + noOfSteps;
+        currentPosition.setColumn(newColumn);
+    }
+    private void southMovement(int noOfSteps){
         int newRow = currentPosition.getRow() + noOfSteps;
-        if(currentDirection == EAST) currentPosition.setColumn(newColumn);
-        if(currentDirection == WEST) currentPosition.setColumn(newColumn);
-        if (currentDirection == SOUTH) currentPosition.setRow(newRow);
-        if(currentDirection == NORTH) currentPosition.setRow(newRow);
+        currentPosition.setRow(newRow);
     }
 
     public  void move(int noOfSteps, Sketchpad sketchpad){
+        noOfSteps = noOfSteps - 1;
         if(!penIsUp) writeOn(sketchpad, noOfSteps);
-
         move(noOfSteps);
     }
 
     private void writeOn(Sketchpad sketchpad, int noOfSteps) {
+        int[][] floor = sketchpad.getFloor();
+        int currentRow = currentPosition.getRow();
+        int currentCol = currentPosition.getColumn();
+
+        if(currentDirection == EAST){
+            for(int i = 0; i <= noOfSteps; i++){
+                floor[currentRow][currentCol++] = 1;
+            }
+
+        }
+        if(currentDirection == SOUTH){
+            for(int i = 0; i <= noOfSteps; i++){
+                floor[currentRow++][currentCol] = 1;
+            }
+        }
+        if(currentDirection == WEST){
+            for(int i = 0; i < noOfSteps; i++){
+                floor[currentRow][--currentCol] = 1;
+            }
+        }
+        if(currentDirection == NORTH){
+            for(int i = 0; i < noOfSteps; i++){
+                floor[--currentRow][currentCol] = 1;
+            }
+        }
+
     }
 
 }

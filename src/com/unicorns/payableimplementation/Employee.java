@@ -40,6 +40,6 @@ public class Employee implements Payable{
 
     @Override
     public String toString(){
-        return String.format("%s %s%n%s: %s", getFirstName(), getLastName(), "Social security number", getSocialSecurityNumber());
+        return String.format("%s %s%n%s: %s%n%s: %s", getFirstName(), getLastName(), "Social security number", getSocialSecurityNumber(), "earnings", earnings());
     }
 }

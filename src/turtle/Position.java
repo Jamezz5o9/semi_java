@@ -3,8 +3,8 @@ package turtle;
 import java.util.function.BooleanSupplier;
 
 public class Position{
-private int row = 0;
-private int column = 0;
+private int row;
+private int column;
 
     public Position(int row, int column) {
         this.row = row;
