@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/unicorns/payableimplementation/Payable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turtle/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turtle/Sketchpad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Sketchpad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turtle/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Turtle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/turtle/TurtleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/turtle/TurtleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +225,13 @@
       <workItem from="1662024371869" duration="28762000" />
       <workItem from="1662107301024" duration="16288000" />
       <workItem from="1662190914973" duration="595000" />
-      <workItem from="1662233932022" duration="8875000" />
+      <workItem from="1662233932022" duration="9590000" />
+      <workItem from="1662423472866" duration="4472000" />
+      <workItem from="1662437022461" duration="4381000" />
+      <workItem from="1662519552924" duration="596000" />
+      <workItem from="1662554440865" duration="593000" />
+      <workItem from="1662572821592" duration="589000" />
+      <workItem from="1662636037411" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
