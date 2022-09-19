@@ -67,7 +67,7 @@ public class Diary {
     private void deleteEntry(){
         System.out.println("Entries that were matched with the same date and time will be deleted");
         LocalDateTime localDateTime = readDateTime();
-       database.removeEntry(localDateTime);
+        database.removeEntry(localDateTime);
 
     }
 

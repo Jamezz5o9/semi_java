@@ -29,7 +29,7 @@ private int column;
         if(!obj.getClass().equals(this.getClass())) return false;
         boolean isEqual = false;
         Position comparedPosition = (Position) obj;
-        boolean rowsAreEqual = comparedPosition.row ==this.row;
+        boolean rowsAreEqual = comparedPosition.row == this.row;
         boolean columnsAreEqual = comparedPosition.column == this.column;
         if(columnsAreEqual == rowsAreEqual) isEqual = true;
 

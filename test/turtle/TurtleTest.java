@@ -96,7 +96,7 @@ public class TurtleTest {
         ijapa.turnRight();
         assertEquals(WEST, ijapa.getCurrentDirection());
         ijapa.move(5, sketchpad);
-        assertEquals(new Position(5, 4), ijapa.getCurrentPosition());
+        assertEquals(new Position(5, -4), ijapa.getCurrentPosition());
 
     }
     @Test

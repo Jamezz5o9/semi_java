@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chapter15/StringManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FEMI/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FEMI/TimeFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FEMI/secondMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CreditCard/CreditCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FEMI/TimeFormatterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week8/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8/Diary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/turtle/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/turtle/TurtleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/turtle/TurtleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +82,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="CreditCard" />
       <recent name="turtle" />
       <recent name="Television" />
       <recent name="Aircondition" />
@@ -81,79 +92,81 @@
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PayableInterfaceTest">
-    <configuration name="PayableInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unicorns.payableimplementation.PayableInterfaceTest" />
+  <component name="RunManager" selected="JUnit.CreditCardTest.testThatWeCanGetTheNumberOfSize">
+    <configuration name="CreditCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unicorns.payableimplementation.*" />
+          <option name="PATTERN" value="CreditCard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="CreditCard" />
+      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleTest.turtleCanMoveWhileFacingSouth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardTest.testForValidityOfCardNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="turtle.*" />
+          <option name="PATTERN" value="CreditCard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="turtle" />
-      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
-      <option name="METHOD_NAME" value="turtleCanMoveWhileFacingSouth" />
+      <option name="PACKAGE_NAME" value="CreditCard" />
+      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
+      <option name="METHOD_NAME" value="testForValidityOfCardNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleTest.turtleCanWriteWhenPenIsDownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardTest.testThatTheNumberPrefixTheListOfNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="turtle.*" />
+          <option name="PATTERN" value="CreditCard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="turtle" />
-      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
-      <option name="METHOD_NAME" value="turtleCanWriteWhenPenIsDownTest" />
+      <option name="PACKAGE_NAME" value="CreditCard" />
+      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
+      <option name="METHOD_NAME" value="testThatTheNumberPrefixTheListOfNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleTest.turtleCanWriteWhenPenIsFacingWestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardTest.testThatWeCanGetTheNumberOfSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="turtle.*" />
+          <option name="PATTERN" value="CreditCard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="turtle" />
-      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
-      <option name="METHOD_NAME" value="turtleCanWriteWhenPenIsFacingWestTest" />
+      <option name="PACKAGE_NAME" value="CreditCard" />
+      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
+      <option name="METHOD_NAME" value="testThatWeCanGetTheNumberOfSize" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleTest.turtleCanWriteWhenPenisFacingSouthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardTest.testThatWeCanReturnNumberIfItsSingleDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="turtle.*" />
+          <option name="PATTERN" value="CreditCard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="turtle" />
-      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
-      <option name="METHOD_NAME" value="turtleCanWriteWhenPenisFacingSouthTest" />
+      <option name="PACKAGE_NAME" value="CreditCard" />
+      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
+      <option name="METHOD_NAME" value="testThatWeCanReturnNumberIfItsSingleDigit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PayableInterfaceTest" />
-        <item itemvalue="JUnit.TurtleTest.turtleCanWriteWhenPenisFacingSouthTest" />
-        <item itemvalue="JUnit.TurtleTest.turtleCanWriteWhenPenIsFacingWestTest" />
-        <item itemvalue="JUnit.TurtleTest.turtleCanWriteWhenPenIsDownTest" />
-        <item itemvalue="JUnit.TurtleTest.turtleCanMoveWhileFacingSouth" />
+        <item itemvalue="JUnit.CreditCardTest.testThatWeCanGetTheNumberOfSize" />
+        <item itemvalue="JUnit.CreditCardTest.testThatTheNumberPrefixTheListOfNumber" />
+        <item itemvalue="JUnit.CreditCardTest" />
+        <item itemvalue="JUnit.CreditCardTest.testThatWeCanReturnNumberIfItsSingleDigit" />
+        <item itemvalue="JUnit.CreditCardTest.testForValidityOfCardNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +244,13 @@
       <workItem from="1662519552924" duration="596000" />
       <workItem from="1662554440865" duration="593000" />
       <workItem from="1662572821592" duration="589000" />
-      <workItem from="1662636037411" duration="1265000" />
+      <workItem from="1662636037411" duration="2286000" />
+      <workItem from="1662808827284" duration="3928000" />
+      <workItem from="1663058204161" duration="12066000" />
+      <workItem from="1663231760053" duration="1352000" />
+      <workItem from="1663243775584" duration="11991000" />
+      <workItem from="1663403380849" duration="47978000" />
+      <workItem from="1663504635361" duration="31904000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
@@ -302,6 +321,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/turtle/TurtleTest.java</url>
+          <line>87</line>
+          <properties class="turtle.TurtleTest" method="turtleCanMoveWhileFacingSouth">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/CreditCard/CreditCard.java</url>
+          <line>82</line>
+          <properties class="CreditCard.CreditCard" method="findSum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
