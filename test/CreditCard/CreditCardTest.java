@@ -112,7 +112,9 @@ public class CreditCardTest {
     @Test
     public void testThatWeCanReturnNumberIfItsSingleDigit(){
         String numberTwo = "4388576018402626";
+        String number = "43113434";
         assertEquals(11, creditCard.numberCheck(numberTwo));
+        assertEquals(43113434, creditCard.numberCheck(number));
     }
 
     @Test
@@ -133,6 +135,9 @@ public class CreditCardTest {
         String number = "4327";
         String k = "234";
         assertEquals(2, creditCard.getPrefix(number, k));
+        String numberOne = "4327";
+        String kOne = "23444";
+        assertEquals(4327, creditCard.getPrefix(numberOne, kOne));
 
     }
 }

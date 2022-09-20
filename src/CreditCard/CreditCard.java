@@ -163,6 +163,9 @@ public class CreditCard {
             }
 
         }
+        if(numberFound <= 0){
+            numberFound = Integer.parseInt(number);
+        }
             return numberFound;
         }
 
@@ -182,8 +185,19 @@ public class CreditCard {
     }
 
     public int getPrefix(String number, String k) {
+        int result = 0;
         for(int i = 0; i < number.length(); i++){
+            if(k.charAt(0) == number.charAt(i)) {
+                String num = "" + number.charAt(i);
+                result = Integer.parseInt(num);
+                break;
+            }
+            else if (number.length() < k.length()) {
+                result = Integer.parseInt(number);
+                break;
 
+            }
         }
+        return result;
     }
 }

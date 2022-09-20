@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/StringManipulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEMI/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEMI/TimeFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FEMI/secondMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CreditCard/CreditCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/FEMI/TimeFormatterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week8/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week8/Diary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turtle/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/turtle/TurtleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/turtle/TurtleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CreditCard/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CreditCard/CreditCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +84,7 @@
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreditCardTest.testThatWeCanGetTheNumberOfSize">
+  <component name="RunManager" selected="JUnit.CreditCardTest.testThatWeCanReturnNumberIfItsSingleDigit">
     <configuration name="CreditCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
@@ -104,22 +96,6 @@
       <option name="PACKAGE_NAME" value="CreditCard" />
       <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditCardTest.testForValidityOfCardNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CreditCard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CreditCard" />
-      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
-      <option name="METHOD_NAME" value="testForValidityOfCardNumber" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,6 +132,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreditCardTest.testThatWeCanGetThePrefixOfNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CreditCard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CreditCard" />
+      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
+      <option name="METHOD_NAME" value="testThatWeCanGetThePrefixOfNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreditCardTest.testThatWeCanReturnNumberIfItsSingleDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
@@ -174,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreditCardTest.testThatWeCanReturnNumberIfItsSingleDigit" />
+        <item itemvalue="JUnit.CreditCardTest.testThatWeCanGetThePrefixOfNumber" />
         <item itemvalue="JUnit.CreditCardTest.testThatWeCanGetTheNumberOfSize" />
         <item itemvalue="JUnit.CreditCardTest.testThatTheNumberPrefixTheListOfNumber" />
         <item itemvalue="JUnit.CreditCardTest" />
-        <item itemvalue="JUnit.CreditCardTest.testThatWeCanReturnNumberIfItsSingleDigit" />
-        <item itemvalue="JUnit.CreditCardTest.testForValidityOfCardNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +242,7 @@
       <workItem from="1663231760053" duration="1352000" />
       <workItem from="1663243775584" duration="11991000" />
       <workItem from="1663403380849" duration="47978000" />
-      <workItem from="1663504635361" duration="31904000" />
+      <workItem from="1663504635361" duration="37082000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
@@ -339,6 +331,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/CreditCard/CreditCard.java</url>
+          <line>186</line>
+          <properties class="CreditCard.CreditCard" method="getPrefix">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/CreditCard/CreditCard.java</url>
+          <line>144</line>
+          <properties class="CreditCard.CreditCard" method="numberCheck">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
