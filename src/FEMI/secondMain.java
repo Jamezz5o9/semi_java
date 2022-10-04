@@ -7,7 +7,7 @@ import static java.lang.System.exit;
 
 public class secondMain {
     private static final TimeFormatter time = new TimeFormatter();
-    private static Scanner input = new Scanner(System.in);
+    private static final Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
         startTimeFormat();

@@ -8,7 +8,6 @@ public class Sketchpad {
         floor = new int[noOfRows][noOfCols];
         this.noOfRows = noOfRows;
         this.noOfCols = noOfCols;
-
     }
     public int[][] getFloor() {
         return floor;

@@ -29,7 +29,7 @@ public class TurtleTest {
     }
 
     @Test
-    public void tutleCanMovePenDownTest(){
+    public void turtleCanMovePenDownTest(){
         ijapa.penUp();
         assertTrue(ijapa.isPenUp());
 
@@ -68,7 +68,6 @@ public class TurtleTest {
         assertEquals(SOUTH, ijapa.getCurrentDirection());
         ijapa.turnLeft();
         assertEquals(EAST, ijapa.getCurrentDirection());
-
     }
 
     @Test

@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CreditCard/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/Mark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/exceptions/InvalidPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/exceptions/InvalidSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/exceptions/InvalidString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Phonebook/PhoneBookEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DisplayTicTac/TicTacToesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Phonebook/PhoneBookEntryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CreditCard/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CreditCard/CreditCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DisplayTicTac/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fillSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FEMI/secondMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FEMI/secondMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/turtle/Sketchpad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Sketchpad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/turtle/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Turtle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/turtle/TurtleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/turtle/TurtleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,91 +88,91 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DisplayTicTac.exceptions" />
+      <recent name="DisplayTicTac" />
       <recent name="CreditCard" />
       <recent name="turtle" />
       <recent name="Television" />
-      <recent name="Aircondition" />
-      <recent name="week8" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreditCardTest.testThatWeCanReturnNumberIfItsSingleDigit">
-    <configuration name="CreditCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TicTacToesTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.Main" />
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreditCard.*" />
+          <option name="PATTERN" value="DisplayTicTac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CreditCard" />
-      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTacToesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DisplayTicTac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DisplayTicTac" />
+      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.TicTacToesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditCardTest.testThatTheNumberPrefixTheListOfNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToesTest.testThatPlayerCanWinAtFifthPositionOnBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreditCard.*" />
+          <option name="PATTERN" value="DisplayTicTac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CreditCard" />
-      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
-      <option name="METHOD_NAME" value="testThatTheNumberPrefixTheListOfNumber" />
+      <option name="PACKAGE_NAME" value="DisplayTicTac" />
+      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.TicTacToesTest" />
+      <option name="METHOD_NAME" value="testThatPlayerCanWinAtFifthPositionOnBoard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditCardTest.testThatWeCanGetTheNumberOfSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToesTest.testThatPlayerCanWinAtSixthPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreditCard.*" />
+          <option name="PATTERN" value="DisplayTicTac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CreditCard" />
-      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
-      <option name="METHOD_NAME" value="testThatWeCanGetTheNumberOfSize" />
+      <option name="PACKAGE_NAME" value="DisplayTicTac" />
+      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.TicTacToesTest" />
+      <option name="METHOD_NAME" value="testThatPlayerCanWinAtSixthPosition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditCardTest.testThatWeCanGetThePrefixOfNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToesTest.testThatPlayerHaveTie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreditCard.*" />
+          <option name="PATTERN" value="DisplayTicTac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CreditCard" />
-      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
-      <option name="METHOD_NAME" value="testThatWeCanGetThePrefixOfNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditCardTest.testThatWeCanReturnNumberIfItsSingleDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CreditCard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CreditCard" />
-      <option name="MAIN_CLASS_NAME" value="CreditCard.CreditCardTest" />
-      <option name="METHOD_NAME" value="testThatWeCanReturnNumberIfItsSingleDigit" />
+      <option name="PACKAGE_NAME" value="DisplayTicTac" />
+      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.TicTacToesTest" />
+      <option name="METHOD_NAME" value="testThatPlayerHaveTie" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CreditCardTest.testThatWeCanReturnNumberIfItsSingleDigit" />
-        <item itemvalue="JUnit.CreditCardTest.testThatWeCanGetThePrefixOfNumber" />
-        <item itemvalue="JUnit.CreditCardTest.testThatWeCanGetTheNumberOfSize" />
-        <item itemvalue="JUnit.CreditCardTest.testThatTheNumberPrefixTheListOfNumber" />
-        <item itemvalue="JUnit.CreditCardTest" />
+        <item itemvalue="JUnit.TicTacToesTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TicTacToesTest.testThatPlayerHaveTie" />
+        <item itemvalue="JUnit.TicTacToesTest.testThatPlayerCanWinAtSixthPosition" />
+        <item itemvalue="JUnit.TicTacToesTest.testThatPlayerCanWinAtFifthPositionOnBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +256,19 @@
       <workItem from="1663231760053" duration="1352000" />
       <workItem from="1663243775584" duration="11991000" />
       <workItem from="1663403380849" duration="47978000" />
-      <workItem from="1663504635361" duration="37082000" />
+      <workItem from="1663504635361" duration="41942000" />
+      <workItem from="1663674590137" duration="881000" />
+      <workItem from="1663721153642" duration="8216000" />
+      <workItem from="1663756328556" duration="11538000" />
+      <workItem from="1663842505938" duration="5202000" />
+      <workItem from="1663892487128" duration="33699000" />
+      <workItem from="1664059610955" duration="879000" />
+      <workItem from="1664225991590" duration="29319000" />
+      <workItem from="1664298703993" duration="5146000" />
+      <workItem from="1664446528685" duration="11379000" />
+      <workItem from="1664472250583" duration="3753000" />
+      <workItem from="1664643890250" duration="497000" />
+      <workItem from="1664881251970" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
@@ -297,9 +323,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/DisplayTicTac/TicTacToe.java</url>
+          <url>file://$PROJECT_DIR$/src/fillSegment.java</url>
           <line>86</line>
-          <properties class="DisplayTicTac.TicTacToe" method="main">
+          <properties class="fillSegment">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -316,7 +342,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/test/turtle/TurtleTest.java</url>
-          <line>87</line>
+          <line>86</line>
           <properties class="turtle.TurtleTest" method="turtleCanMoveWhileFacingSouth">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -349,6 +375,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/CreditCard/CreditCardTest.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

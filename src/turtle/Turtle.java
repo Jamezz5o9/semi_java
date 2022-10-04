@@ -3,7 +3,7 @@ package turtle;
 import static turtle.Direction.*;
 
 public class Turtle {
-    private Position currentPosition = new Position(0, 0);
+    private final Position currentPosition = new Position(0, 0);
 
     private Direction currentDirection = EAST;
     private boolean penIsUp;

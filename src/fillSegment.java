@@ -1,6 +1,4 @@
-package DisplayTicTac;
-
-public class TicTacToe {
+public class fillSegment {
     private static int[][] tictac = new int[20][20];
 
     public static void fillA(){
