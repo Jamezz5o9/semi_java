@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CreditCard/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/Mark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/exceptions/InvalidPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/exceptions/InvalidSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DisplayTicTac/exceptions/InvalidString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Phonebook/PhoneBookEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DisplayTicTac/TicTacToesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Phonebook/PhoneBookEntryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FEMI/ComplexNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HugeInteger/HugeInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/HugeInteger/HugeIntegerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DisplayTicTac/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fillSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FEMI/secondMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FEMI/secondMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turtle/Sketchpad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Sketchpad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turtle/Turtle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Turtle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/turtle/TurtleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/turtle/TurtleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="HugeInteger" />
       <recent name="DisplayTicTac.exceptions" />
       <recent name="DisplayTicTac" />
       <recent name="CreditCard" />
       <recent name="turtle" />
-      <recent name="Television" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -101,13 +88,13 @@
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToesTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.Main" />
+  <component name="RunManager" selected="Application.ComplexNumber">
+    <configuration name="ComplexNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FEMI.ComplexNumber" />
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DisplayTicTac.*" />
+          <option name="PATTERN" value="FEMI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,54 +102,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HugeIntegerTest.testThatHugeIntegerClassIsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DisplayTicTac.*" />
+          <option name="PATTERN" value="HugeInteger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DisplayTicTac" />
-      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.TicTacToesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicTacToesTest.testThatPlayerCanWinAtFifthPositionOnBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DisplayTicTac.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DisplayTicTac" />
-      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.TicTacToesTest" />
-      <option name="METHOD_NAME" value="testThatPlayerCanWinAtFifthPositionOnBoard" />
+      <option name="PACKAGE_NAME" value="HugeInteger" />
+      <option name="MAIN_CLASS_NAME" value="HugeInteger.HugeIntegerTest" />
+      <option name="METHOD_NAME" value="testThatHugeIntegerClassIsNotNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToesTest.testThatPlayerCanWinAtSixthPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HugeIntegerTest.testThatMethodParseCanConvertStrintoInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DisplayTicTac.*" />
+          <option name="PATTERN" value="HugeInteger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DisplayTicTac" />
-      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.TicTacToesTest" />
-      <option name="METHOD_NAME" value="testThatPlayerCanWinAtSixthPosition" />
+      <option name="PACKAGE_NAME" value="HugeInteger" />
+      <option name="MAIN_CLASS_NAME" value="HugeInteger.HugeIntegerTest" />
+      <option name="METHOD_NAME" value="testThatMethodParseCanConvertStrintoInteger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToesTest.testThatPlayerHaveTie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HugeIntegerTest.testThatWeCanAddNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HugeInteger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HugeInteger" />
+      <option name="MAIN_CLASS_NAME" value="HugeInteger.HugeIntegerTest" />
+      <option name="METHOD_NAME" value="testThatWeCanAddNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicTacToesTest.testThatBoardIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
@@ -172,7 +160,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="DisplayTicTac" />
       <option name="MAIN_CLASS_NAME" value="DisplayTicTac.TicTacToesTest" />
-      <option name="METHOD_NAME" value="testThatPlayerHaveTie" />
+      <option name="METHOD_NAME" value="testThatBoardIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TicTacToesTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TicTacToesTest.testThatPlayerHaveTie" />
-        <item itemvalue="JUnit.TicTacToesTest.testThatPlayerCanWinAtSixthPosition" />
-        <item itemvalue="JUnit.TicTacToesTest.testThatPlayerCanWinAtFifthPositionOnBoard" />
+        <item itemvalue="Application.ComplexNumber" />
+        <item itemvalue="JUnit.HugeIntegerTest.testThatWeCanAddNumber" />
+        <item itemvalue="JUnit.HugeIntegerTest.testThatMethodParseCanConvertStrintoInteger" />
+        <item itemvalue="JUnit.HugeIntegerTest.testThatHugeIntegerClassIsNotNull" />
+        <item itemvalue="JUnit.TicTacToesTest.testThatBoardIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +256,11 @@
       <workItem from="1664446528685" duration="11379000" />
       <workItem from="1664472250583" duration="3753000" />
       <workItem from="1664643890250" duration="497000" />
-      <workItem from="1664881251970" duration="618000" />
+      <workItem from="1664881251970" duration="1744000" />
+      <workItem from="1664904392224" duration="10825000" />
+      <workItem from="1665422851196" duration="6249000" />
+      <workItem from="1665478970664" duration="592000" />
+      <workItem from="1665535336962" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
@@ -375,6 +367,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/HugeInteger/HugeInteger.java</url>
+          <line>24</line>
+          <properties class="HugeInteger.HugeInteger" method="addNewNum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/CreditCard/CreditCardTest.java</url>
