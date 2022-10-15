@@ -7,11 +7,9 @@ import static DisplayTicTac.Mark.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TicTacToesTest {
-
     private Board board;
     private Player player1;
     private Player player2;
-
 
     @BeforeEach()
     public void setUp(){

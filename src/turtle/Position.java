@@ -32,16 +32,12 @@ private int column;
         boolean rowsAreEqual = comparedPosition.row == this.row;
         boolean columnsAreEqual = comparedPosition.column == this.column;
         if(columnsAreEqual == rowsAreEqual) isEqual = true;
-
         return isEqual;
     }
 
 
     @Override
     public String toString() {
-        return "Position{" +
-                "row=" + row +
-                ", column=" + column +
-                '}';
+        return "Position{" + "row=" + row + ", column=" + column + '}';
     }
 }
