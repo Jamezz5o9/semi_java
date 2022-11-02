@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/turtle/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/turtle/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DisplayTicTac/TicTacToesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DisplayTicTac/TicTacToesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,6 +263,16 @@
       <workItem from="1665681813715" duration="5268000" />
       <workItem from="1665697188757" duration="1808000" />
       <workItem from="1665749014336" duration="1197000" />
+      <workItem from="1665803744999" duration="1247000" />
+      <workItem from="1666100191750" duration="1631000" />
+      <workItem from="1666151179098" duration="2637000" />
+      <workItem from="1666170306082" duration="891000" />
+      <workItem from="1666574082782" duration="354000" />
+      <workItem from="1667066958173" duration="598000" />
+      <workItem from="1667157223313" duration="599000" />
+      <workItem from="1667298672449" duration="598000" />
+      <workItem from="1667323915202" duration="593000" />
+      <workItem from="1667352656376" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
