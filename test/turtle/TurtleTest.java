@@ -39,7 +39,6 @@ public class TurtleTest {
 
     @Test
     public void turtleCanTurnRight_whileFacingEast(){
-
         assertEquals(EAST, ijapa.getCurrentDirection());
         ijapa.turnRight();
         assertEquals(SOUTH, ijapa.getCurrentDirection());
