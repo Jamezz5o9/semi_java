@@ -83,7 +83,6 @@ public class CreditCard {
     public static int findSum(String input){
         int sum = 0;
         String temp = "0";
-
         for(int i =0; i<input.length(); i++){
             char ch = input.charAt(i);
             if(Character.isDigit(ch))

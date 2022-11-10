@@ -29,12 +29,8 @@ public class Player {
             currentRow = 2;
             currentCol = position - 7;
         }
-
-    if(floor[currentRow][currentCol] == E){
-        floor[currentRow][currentCol] = mark;
-    } else{
-        throw new InvalidSpace("You can only move to an empty space");
-    }
+         if(floor[currentRow][currentCol] == E) floor[currentRow][currentCol] = mark;
+         else throw new InvalidSpace("You can only move to an empty space");
 
     }
     public Mark getMark() {
