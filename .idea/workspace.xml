@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91c48321-79bf-40f3-8474-987f1be94a2c" name="Changes" comment="another commitfour">
-      <change afterPath="$PROJECT_DIR$/src/DisplayCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreditCard/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DisplayTicTac/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DisplayTicTac/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
@@ -89,7 +87,7 @@
       <recent name="Week11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HugeIntegerTest.testThatMethodParseCanConvertStrintoInteger">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DisplayCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DisplayCheck" />
       <module name="javaAssignment" />
@@ -126,17 +124,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TurtleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicTacToesTest.testThatPlayerCanWinAtFifthPositionOnBoard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="turtle.*" />
+          <option name="PATTERN" value="DisplayTicTac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="turtle" />
-      <option name="MAIN_CLASS_NAME" value="turtle.TurtleTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="DisplayTicTac" />
+      <option name="MAIN_CLASS_NAME" value="DisplayTicTac.TicTacToesTest" />
+      <option name="METHOD_NAME" value="testThatPlayerCanWinAtFifthPositionOnBoard" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TicTacToesTest.testThatPlayerCanWinAtFifthPositionOnBoard" />
         <item itemvalue="JUnit.HugeIntegerTest.testThatMethodParseCanConvertStrintoInteger" />
         <item itemvalue="Application.DisplayCheck" />
         <item itemvalue="JUnit.TurtleTest.turtleCanWriteWhenPenIsDownTest" />
-        <item itemvalue="JUnit.TurtleTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +278,9 @@
       <workItem from="1667884720218" duration="646000" />
       <workItem from="1667929006741" duration="5106000" />
       <workItem from="1667983256798" duration="8319000" />
-      <workItem from="1668039986233" duration="621000" />
+      <workItem from="1668039986233" duration="1760000" />
+      <workItem from="1668101794530" duration="1450000" />
+      <workItem from="1668108208317" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="another commit">
       <created>1657878424567</created>
@@ -334,6 +335,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="another commit" />
     <MESSAGE value="another commit1" />
     <MESSAGE value="another commit2" />
